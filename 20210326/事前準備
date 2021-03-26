@@ -1,0 +1,7 @@
+１仮想環境の実装
+
+２pythonライブラリの導入
+pipenv install Flask
+pipenv install Flask-SQLAlchmy
+pipenv install Flask-Script
+pipenv install coverage
