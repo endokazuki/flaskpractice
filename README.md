@@ -1,2 +1,2 @@
 # flaskpractice
-this Repository is learing flask
+this Repository is to learn flask
