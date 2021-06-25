@@ -1,0 +1,17 @@
+１仮想環境の実装
+環境構築はpipenvを前提で進行
+
+２pythonライブラリの導入
+pipenv install Flask
+pip install "Flask==1.1.1"
+＃flaskを1.1.1にしとかないとFlask-Scriptでエラーが発生する
+#参考：https://nomodulenamed.com/m/flask._compat
+
+pipenv install Flask-SQLAlchemy
+
+pipenv install Flask-Script
+
+pipenv install coverage
+
+3sessionの確認
+config.pyのUSERNAMEとPASSWORDを確認（変更したい場合は任意でconfig.pyを編集する事）
